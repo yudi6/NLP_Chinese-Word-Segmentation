@@ -10,9 +10,8 @@
 
 ### 1、训练
 
-- 训练时运行`main.py`文件即可进行训练，在`main.py`文件中**TrainWord2Vec**函数用于选择训练用的词向量文件，函数参数`load_word_model`有三种输入'baidu'、'merge'、'Word2Vec'，对应使用的三种词向量。由于读取的词向量文件过大，发送过去的版本中只有Word2Vec的字向量，以下为缺少的词向量文件。
+- 训练时运行`main.py`文件即可进行训练，在`main.py`文件中**TrainWord2Vec**函数用于选择训练用的词向量文件，函数参数`load_word_model`有三种输入'baidu'、'merge'、'Word2Vec'，对应使用的三种词向量。
 
-  ![image-20201130153639408](C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20201130153639408.png)
   
 - 若选择'Word2Vec'词向量，如下。
 
